@@ -1,15 +1,15 @@
 # Awesome Seedance API 🎬 — Prompts, Variants & One-Call Video Generation
 
-> The most complete open guide to **ByteDance Seedance — the cinematic AI video model (Seedance 1 · 1.5 Pro · 2.0 · 2.5)** — a community prompt library and a single API to run every variant.
+> The most complete open guide to **ByteDance Seedance — the cinematic AI video model (Seedance 2.5 · 2.5 Flash · 2.0 · 1.5 Pro)** — a community prompt library and a single API to run every variant.
 
 <p align="center">
   <a href="https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><img src="https://img.shields.io/badge/▶_Run_Seedance_2.5-Get_API_Key-00E5FF?style=for-the-badge&labelColor=0B0B0F" alt="Run Seedance 2.5"></a>
-  <a href="https://wavespeed.ai/seedance-2-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><img src="https://img.shields.io/badge/Seedance_2.0-Try_Now-7C3AED?style=for-the-badge&labelColor=0B0B0F" alt="Seedance 2.0"></a>
+  <a href="https://wavespeed.ai/seedance-2-5-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><img src="https://img.shields.io/badge/Seedance_2.5_Flash-Try_Now-7C3AED?style=for-the-badge&labelColor=0B0B0F" alt="Seedance 2.5 Flash"></a>
 </p>
 
 <p align="center">
   <b>🌊 Powered by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api">WaveSpeedAI</a> — serverless Seedance API, pay-as-you-go, zero cold starts.</b><br>
-  <a href="https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><b>→ Get a Seedance 2.5 API key</b></a> &nbsp;·&nbsp; <a href="https://wavespeed.ai/seedance-2-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><b>→ Try Seedance 2.0</b></a>
+  <a href="https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><b>→ Get a Seedance 2.5 API key</b></a> &nbsp;·&nbsp; <a href="https://wavespeed.ai/seedance-2-5-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api"><b>→ Try Seedance 2.5 Flash</b></a>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 ## What is Seedance?
 
-**Seedance** is ByteDance's cinematic AI video model — text or image in, high-motion video out, with strong subject consistency, explicit camera control, and native audio sync on the 2.x line. WaveSpeedAI serves the full family: Seedance 1, 1.5 Pro, 2.0 (fast/mini) and the flagship **2.5**.
+**Seedance** is ByteDance's cinematic AI video model — text, images or references in, high-motion video out, with strong subject consistency, explicit camera control, and audio generated together with the picture on the 2.x line. WaveSpeedAI serves the full family: the flagship **Seedance 2.5** and **2.5 Flash** (text, image and reference to video, video edit, video extend, motion control and talking avatar, 4 to 30 second clips), plus Seedance 2.0 (fast / mini) and 1.5 Pro.
 
 ---
 
@@ -68,14 +68,17 @@ curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
 
 All variants open in-browser with a copy-paste API snippet.
 
-### Seedance 2.5 — flagship &nbsp;[▶ API](https://wavespeed.ai/seedance-2-5-api)
-[text-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5/text-to-video) · [image-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5/image-to-video) · [video-edit](https://wavespeed.ai/models/bytedance/seedance-2.5/video-edit) · [video-extend](https://wavespeed.ai/models/bytedance/seedance-2.5/video-extend)
+### Seedance 2.5 — flagship &nbsp;[▶ API](https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
+[text-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [image-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [reference-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5/reference-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [video-edit](https://wavespeed.ai/models/bytedance/seedance-2.5/video-edit?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [video-extend](https://wavespeed.ai/models/bytedance/seedance-2.5/video-extend?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [motion-control](https://wavespeed.ai/models/bytedance/seedance-2.5/motion-control?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [talking-avatar](https://wavespeed.ai/models/bytedance/seedance-2.5/talking-avatar?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
 
-### Seedance 2.0 / fast / mini &nbsp;[▶ API](https://wavespeed.ai/seedance-2-api)
-[2.0 t2v](https://wavespeed.ai/models/bytedance/seedance-2.0/text-to-video) · [2.0-fast](https://wavespeed.ai/models/bytedance/seedance-2.0-fast/text-to-video) · [2.0-mini](https://wavespeed.ai/models/bytedance/seedance-2.0-mini/text-to-video)
+### Seedance 2.5 Flash &nbsp;[▶ API](https://wavespeed.ai/seedance-2-5-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
+[text-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5-flash/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [image-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5-flash/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [reference-to-video](https://wavespeed.ai/models/bytedance/seedance-2.5-flash/reference-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [video-edit](https://wavespeed.ai/models/bytedance/seedance-2.5-flash/video-edit?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [video-extend](https://wavespeed.ai/models/bytedance/seedance-2.5-flash/video-extend?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
 
-### Seedance 1.5 Pro / 1
-[1.5-pro t2v](https://wavespeed.ai/models/bytedance/seedance-v1.5-pro/text-to-video) · [1-pro 1080p](https://wavespeed.ai/models/bytedance/seedance-v1-pro-t2v-1080p)
+### Seedance 2.0 / fast / mini &nbsp;[▶ API](https://wavespeed.ai/seedance-2-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
+[2.0 t2v](https://wavespeed.ai/models/bytedance/seedance-2.0/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [2.0-fast](https://wavespeed.ai/models/bytedance/seedance-2.0-fast/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [2.0-mini](https://wavespeed.ai/models/bytedance/seedance-2.0-mini/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
+
+### Seedance 1.5 Pro / 1 &nbsp;[▶ API](https://wavespeed.ai/seedance-1-5-pro-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
+[1.5-pro t2v](https://wavespeed.ai/models/bytedance/seedance-v1.5-pro/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api) · [1-pro 1080p](https://wavespeed.ai/models/bytedance/seedance-v1-pro-t2v-1080p?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)
 
 > Full catalog: **[wavespeed.ai/seedance-2-5-api](https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)**
 
