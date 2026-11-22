@@ -60,6 +60,8 @@ curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
 
 **[→ Get your Seedance 2.5 API key](https://wavespeed.ai/seedance-2-5-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-api)** · pay-as-you-go, live pricing on each model page.
 
+**Python wrapper:** [seedance-2.5-api](https://github.com/WaveSpeedAI/seedance-2.5-api) — one typed function per Seedance 2.5 endpoint, built on the official SDK.
+
 ---
 
 ## Model Variants
